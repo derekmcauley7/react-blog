@@ -12,6 +12,7 @@ const ArticlesListPage = () => {
             </div>
             ))
     );
+    
 }
 
 export default ArticlesListPage;
