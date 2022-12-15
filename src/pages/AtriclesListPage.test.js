@@ -4,7 +4,7 @@ import ArticlesListPage from './ArticlesListPage';
 test("renders an h1", () => {
   const { getByText } = render(<ArticlesListPage />);
 
-  const h1 = getByText(/This is the Articles List page/);
+  const h1 = getByText(/The Fastest Way to Learn React/);
   
-  expect(h1).toHaveTextContent("This is the Articles List page");
+  expect(h1).toHaveTextContent("The Fastest Way to Learn React");
 });
